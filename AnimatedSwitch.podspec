@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AnimatedSwitch'
   s.version          = '0.1.0'
-  s.summary          = 'Swift subclass of the UISwitch which paints over the parent view.'
+  s.summary          = 'UISwitch which paints over the parent view with the color in Swift.'
 
   s.swift_version = '4.2'
 
@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 
   s.description      = 'Swift subclass of the UISwitch which paints over the parent view with the color if switch is turned on and returns original superview background color if switch is off.'
 
-  s.homepage         = 'https://github.com/rockarts/animatedswitch'
+  s.homepage         = 'https://github.com/alsedi/AnimatedSwitch'
   s.screenshots     = 'https://github.com/alsedi/AnimatedSwitch/raw/master/animation2.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Steven Rockarts' => 'stevenrockarts@gmail.com' }
-  s.source           = { :git => 'https://github.com/rockarts/AnimatedSwitch.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/rockarts'
+  s.author           = { 'Alex Sergeev' => '' }
+  s.source           = { :git => 'https://github.com/alsedi/AnimatedSwitch', :tag => s.version.to_s }
+  # s.social_media_url = 'https://blog.alsedi.com/'
 
   s.ios.deployment_target = '8.0'
 
